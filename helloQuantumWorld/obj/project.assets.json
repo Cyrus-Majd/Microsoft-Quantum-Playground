@@ -7056,11 +7056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
+      "projectUniqueName": "c:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
       "projectName": "helloQuantumWorld",
-      "projectPath": "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
+      "projectPath": "c:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
       "packagesPath": "C:\\Users\\cyrus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\obj\\",
+      "outputPath": "c:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -7079,7 +7079,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7091,7 +7090,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.Quantum.CSharpGeneration": {
             "suppressParent": "All",
@@ -7133,7 +7131,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
       }
     }
   }

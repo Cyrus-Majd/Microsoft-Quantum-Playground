@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dt+b/mF0yfoGMT2xNdQQf10doGfH481eUuYPHWFBEB4/Vftmq7LEH3vQblA4paqy2oPdNP09jxbnbUFEkjbrwQ==",
+  "dgSpecHash": "ookrbO8fB6KCBNUBp6475vv07qjJr311jVUnbfkzrdBoALayyymtqZphLVf1RwrWIRMqkKjcO36PL6cvp2GlRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
+  "projectFilePath": "c:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\helloQuantumWorld\\helloQuantumWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cyrus\\.nuget\\packages\\azure.core\\1.19.0\\azure.core.1.19.0.nupkg.sha512",
     "C:\\Users\\cyrus\\.nuget\\packages\\azure.identity\\1.4.0\\azure.identity.1.4.0.nupkg.sha512",
