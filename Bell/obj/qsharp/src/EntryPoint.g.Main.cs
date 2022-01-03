@@ -14,6 +14,6 @@ namespace __QsEntryPoint__
 {
     internal class __QsEntryPoint__
     {
-        private static async System.Threading.Tasks.Task<int> Main(string[] args) => await new global::Microsoft.Quantum.EntryPointDriver.Driver(new global::Microsoft.Quantum.EntryPointDriver.DriverSettings(simulatorOptionAliases: System.Collections.Immutable.ImmutableList.Create("--simulator", "-s"), quantumSimulatorName: "QuantumSimulator", toffoliSimulatorName: "ToffoliSimulator", resourcesEstimatorName: "ResourcesEstimator", defaultSimulatorName: "QuantumSimulator", defaultExecutionTarget: "Any", createDefaultCustomSimulator: () => throw new InvalidOperationException()), new global::Microsoft.Quantum.EntryPointDriver.IEntryPoint[] { new Bell.__QsEntryPoint__entry() }).Run(args);
+        private static async System.Threading.Tasks.Task<int> Main(string[] args) => await new global::Microsoft.Quantum.EntryPointDriver.Driver(new global::Microsoft.Quantum.EntryPointDriver.DriverSettings(simulatorOptionAliases: System.Collections.Immutable.ImmutableList.Create("--simulator", "-s"), quantumSimulatorName: "QuantumSimulator", toffoliSimulatorName: "ToffoliSimulator", resourcesEstimatorName: "ResourcesEstimator", defaultSimulatorName: "QuantumSimulator", defaultExecutionTarget: "Any", createDefaultCustomSimulator: () => throw new InvalidOperationException()), new global::Microsoft.Quantum.EntryPointDriver.IEntryPoint[] { new Bell.__QsEntryPoint__TestBellState() }).Run(args);
     }
 }
