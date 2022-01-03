@@ -13,14 +13,14 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Bell\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":43},\"Item2\":{\"Line\":1,\"Column\":49}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Bell\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":13,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":14,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":14,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Bell\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":32}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":43},\"Item2\":{\"Line\":1,\"Column\":49}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Bell\",\"Name\":\"SetQubitState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":17,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":21,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\cyrus\\\\Desktop\\\\Gitz\\\\Microsoft-Quantum-Playground\\\\Bell\\\\Program.qs\",\"Position\":{\"Item1\":21,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
 #line hidden
 namespace Bell
 {
-    [SourceLocation("C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs", OperationFunctor.Body, 8, 15)]
+    [SourceLocation("C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs", OperationFunctor.Body, 12, 22)]
     public partial class SetQubitState : Operation<(Result,Qubit), QVoid>, ICallable
     {
         public SetQubitState(IOperationFactory m) : base(m)
@@ -59,10 +59,10 @@ namespace Bell
         public override Func<(Result,Qubit), QVoid> __Body__ => (__in__) =>
         {
             var (desired,target) = __in__;
-#line 9 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 13 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
             if ((desired != Microsoft__Quantum__Intrinsic__M.Apply(target)))
             {
-#line 10 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 14 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                 Microsoft__Quantum__Intrinsic__X.Apply(target);
             }
 
@@ -85,7 +85,7 @@ namespace Bell
         }
     }
 
-    [SourceLocation("C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs", OperationFunctor.Body, 15, -1)]
+    [SourceLocation("C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs", OperationFunctor.Body, 22, -1)]
     public partial class TestBellState : Operation<(Int64,Result), (Int64,Int64,Int64,Int64)>, ICallable
     {
         public TestBellState(IOperationFactory m) : base(m)
@@ -131,6 +131,18 @@ namespace Bell
             set;
         }
 
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> Microsoft__Quantum__Intrinsic__CNOT
+        {
+            get;
+            set;
+        }
+
         protected ICallable<Qubit, Result> Microsoft__Quantum__Intrinsic__M
         {
             get;
@@ -146,52 +158,56 @@ namespace Bell
         public override Func<(Int64,Result), (Int64,Int64,Int64,Int64)> __Body__ => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 16 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 23 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
             var numOnesQ1 = 0L;
-#line 17 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 24 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
             var numOnesQ2 = 0L;
 #line hidden
             {
-#line 20 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 27 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                 var (q1,q2) = (Allocate__.Apply(), Allocate__.Apply());
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 21 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 28 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                     foreach (var test in new QRange(1L, count))
 #line hidden
                     {
-#line 22 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 29 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                         SetQubitState__.Apply((initial, q1));
-#line 23 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
-                        SetQubitState__.Apply((Result.Zero, q2));
-#line 26 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
-                        var resultQ1 = Microsoft__Quantum__Intrinsic__M.Apply(q1);
-#line 27 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
-                        var resultQ2 = Microsoft__Quantum__Intrinsic__M.Apply(q2);
 #line 30 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+                        SetQubitState__.Apply((Result.Zero, q2));
+#line 33 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+                        Microsoft__Quantum__Intrinsic__H.Apply(q1);
+#line 36 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+                        Microsoft__Quantum__Intrinsic__CNOT.Apply((q1, q2));
+#line 39 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+                        var resultQ1 = Microsoft__Quantum__Intrinsic__M.Apply(q1);
+#line 40 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+                        var resultQ2 = Microsoft__Quantum__Intrinsic__M.Apply(q2);
+#line 43 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                         if ((resultQ1 == Result.One))
                         {
-#line 31 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 44 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                             numOnesQ1 = (numOnesQ1 + 1L);
                         }
 
-#line 33 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 46 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                         if ((resultQ2 == Result.One))
                         {
-#line 34 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 47 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                             numOnesQ2 = (numOnesQ2 + 1L);
                         }
                     }
 
-#line 39 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 52 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                     SetQubitState__.Apply((Result.Zero, q1));
-#line 40 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 53 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                     SetQubitState__.Apply((Result.Zero, q2));
-#line 44 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 57 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                     Message__.Apply("q1: Zero, One  q2: Zero, One");
-#line 45 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
+#line 58 "C:\\Users\\cyrus\\Desktop\\Gitz\\Microsoft-Quantum-Playground\\Bell\\Program.qs"
                     return ((count - numOnesQ1), numOnesQ1, (count - numOnesQ2), numOnesQ2);
                 }
 #line hidden
@@ -220,6 +236,8 @@ namespace Bell
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
             this.SetQubitState__ = this.__Factory__.Get<ICallable<(Result,Qubit), QVoid>>(typeof(SetQubitState));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Intrinsic__CNOT = this.__Factory__.Get<IUnitary<(Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CNOT));
             this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
             this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
         }
