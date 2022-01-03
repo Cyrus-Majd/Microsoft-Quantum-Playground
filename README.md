@@ -11,3 +11,4 @@
 # **INCLUDED PROJECTS**
 * Q# Hello World Program (helloQuantumWorld)
 * Quantum Random Number Generator (Qrng)
+* Bell State Simulation (Bell)
