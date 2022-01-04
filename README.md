@@ -12,3 +12,4 @@
 * Q# Hello World Program (helloQuantumWorld)
 * Quantum Random Number Generator (Qrng)
 * Bell State Simulation (Bell)
+* Grover's Search Algorithm (Grover)
